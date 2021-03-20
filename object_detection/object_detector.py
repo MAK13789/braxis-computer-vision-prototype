@@ -14,7 +14,7 @@ for i in detection:
 
 
 '''
-either doesn't detect clothes or detects it as person??  (tried all of pre trained models in the imageai library
+either doesn't detect clothes or detects it as person??  (tried all pre trained models in the imageai library
  
 so will have to make our own model?
 '''
