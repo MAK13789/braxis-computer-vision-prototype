@@ -18,3 +18,14 @@ for (lower, upper) in boundaries:
 	# show the images
 	cv2.imshow("images", np.hstack([image, output]))
 	cv2.waitKey(0)
+
+
+'''
+intialize a dict before the for loop
+
+for each output image, check how many of the pixels are not black
+
+put the number of pixels that are not black and the color that the output was checking for (like what index it is in boundaries) in a dictionary
+
+after the for loop choose the color with the highest number of pixels that are not black from the dictionary
+'''
