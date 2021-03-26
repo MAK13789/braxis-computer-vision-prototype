@@ -3,7 +3,7 @@ f = open("apikey.txt", "r")
 apiKey = f.readline()
 input = {
   "image": [
-    "https://i.imgur.com/nd7vlox.jpeg"
+    "http://i.imgur.com/GtvDM8X.jpg"
   ],
   "model": "small",
   "tags_only": False
