@@ -7,6 +7,7 @@ boundaries = [
 	([25, 146, 190], [62, 174, 250]),
 	([103, 86, 65], [145, 133, 128])
 ]
+d = {}
 for (lower, upper) in boundaries:
 	# create NumPy arrays from the boundaries
 	lower = np.array(lower, dtype = "uint8")
